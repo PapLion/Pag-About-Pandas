@@ -1,0 +1,60 @@
+*{
+    color: white;
+}
+body{
+    background-image: url(/IMGS/edicion2.jpg);
+    background-size: cover;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(14, 77, 58);
+    color: white;
+    text-align: center;
+}
+#Container{
+    width: 30%;
+    height: 30%;
+    background-image: url(/IMGS/dark-green-background-with-bent-lines-vector-3736028510.jpg);
+    margin:auto;
+    padding: 20px;
+}
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+}
+h1,h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+p{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    height: 2px;
+    background-color: greenyellow;
+}
+
+.Food{
+    display: inline-block;
+    width: 75%;
+}
+.Price{
+    display: inline-block;  
+    width: 25%;
+    text-align: right;
+}
+footer{
+    background-color: rgb(14, 77, 58);
+    color: white;
+    text-align: center;
+}
