@@ -1,14 +1,15 @@
 *{
-    margin:0px auto;    color: black;
+    margin:0px auto;    color: whitesmoke;
     list-style: none;
 }
 #container{ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px auto; /*centrar al centro de el bloque q lo tiene por ejemplo creo q seria body*/
     border: 10px solid black;
+    background-color:#1b1b32;
 }
 header{
-    background-color: lightgray;
+    background-color: rgb(67, 51, 51);
     width: 100%;
     height: 50px;
     text-align: center;
@@ -16,7 +17,7 @@ header{
     border-bottom: 3px dashed black;
 }
 nav{
-    background-color: lightcoral;
+    background-color: rgb(91, 26, 26);
     height: 50px;
     border-bottom: 3px dashed black;
 }
@@ -34,16 +35,19 @@ nav ul li{ /* a esto no le afecta el text-aling:center; */
     float: left;
     min-height: 500px;
     width: 80%;
-    /* background-image: url(/IMGS/JS8kz5-2806661126.jpg); */
+    background-color:#1b1b32;
 }
 aside{ 
     float: left;
     min-height: 500px;
     width: 20%;
-    background-color: lightgrey;
+    background-color: rgb(29, 25, 25);
 }
 fieldset{
     min-height: 265px;
+}
+input,button{
+    color: black;
 }
 /* div{
     background-color: lightslategray;
@@ -56,5 +60,4 @@ footer{
     width: 100%;
     line-height: 20px;
     border: 3px dashed black;
-
 }
